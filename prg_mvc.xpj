@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<Project>
+   <Type Value="exe"/>
+   <Description Value="prg_mvc"/>
+   <Output Value="prg_mvc.exe"/>
+   <Environment Value="xa_bcc582"/>
+   <MainModule Value="p00.prg"/>
+   <MultipleInstances Value="Y"/>
+   <XPManifest Value="Y"/>
+   <Icon Value=""/>
+   <Parameters Value=""/>
+   <Version>
+      <VersionInfo Value="N"/>
+      <Version Value="2018.5"/>
+      <Release Value="28"/>
+      <Build Value="0"/>
+      <Company Value=""/>
+      <CopyRight Value=""/>
+      <TradeMarks Value=""/>
+      <Comments Value=""/>
+   </Version>
+   <Directories>
+      <SourceDir Value="Source"/>
+      <IncludeDir Value="Include"/>
+      <ResourceDir Value="Resource"/>
+      <ObjDir Value="Obj"/>
+   </Directories>
+   <Options>
+      <AutomaticMemvarDeclaration Value="N"/>
+      <DebugInfo Value="N"/>
+      <SuppressLineNumberInformation Value="N"/>
+      <SuppressShortcutting Value="N"/>
+      <WarnningLevel Value="1"/>
+      <MoreOptions Value=""/>
+      <MoreCOpt Value=""/>
+      <MapFile Value="N"/>
+      <ConsoleMode Value="N"/>
+      <MoreLinkOpt Value=""/>
+   </Options>
+   <Export>
+      <Dir Value="\usuarios\inpro\SOPORTE\Maex14\HDO"/>
+      <Source Value="Y"/>
+      <Exe Value="N"/>
+      <Bin Value="N"/>
+      <Resource Value="Y"/>
+      <ResourceAll Value="N"/>
+      <ErrorLog Value="N"/>
+      <Subprojects Value="Y"/>
+   </Export>
+   <Clean>
+      <All Value="Y"/>
+   </Clean>
+   <FinalExe>
+      <FullCompile Value="N"/>
+      <UpxCompress Value="N"/>
+      <CompressFlags Value=""/>
+      <Installer Value="N"/>
+      <InstallerFlags Value=""/>
+      <TlbInfo Value="N"/>
+   </FinalExe>
+   <VCS>
+      <Type Value="None"/>
+   </VCS>
+   <Files>
+      <File Filename="p00.prg"/>
+      <File Filename="src\clases\ControlConversor.prg"/>
+      <File Filename="src\clases\ModeloConvEurosPesetas.prg"/>
+      <File Filename="src\clases\VistaConversorTXT.prg"/>
+      <File Filename="src\interfaces\InterfazController.prg"/>
+      <File Filename="src\interfaces\InterfazModelo.prg"/>
+      <File Filename="src\interfaces\InterfazVista.prg"/>
+   </Files>
+   <Libraries>
+      <Library Filename="[Harbour]hbextern"/>
+      <Library Filename="[Harbour]hbdebug"/>
+      <Library Filename="[Harbour]hbvm"/>
+      <Library Filename="[Harbour]hbrtl"/>
+      <Library Filename="[Harbour]hblang"/>
+      <Library Filename="[Harbour]hbcpage"/>
+      <Library Filename="[Harbour]gtcgi" Link="N"/>
+      <Library Filename="[Harbour]gtpca" Link="N"/>
+      <Library Filename="[Harbour]gtstd" Link="N"/>
+      <Library Filename="[Harbour]gtwin"/>
+      <Library Filename="[Harbour]gtwvt" Link="N"/>
+      <Library Filename="[Harbour]gtgui" Link="N"/>
+      <Library Filename="[Harbour]hbrdd"/>
+      <Library Filename="[Harbour]hbuddall"/>
+      <Library Filename="[Harbour]hbusrrdd"/>
+      <Library Filename="[Harbour]rddntx"/>
+      <Library Filename="[Harbour]rddcdx"/>
+      <Library Filename="[Harbour]rddnsx"/>
+      <Library Filename="[Harbour]rddfpt"/>
+      <Library Filename="[Harbour]rddads" Link="N"/>
+      <Library Filename="[Harbour]ace32" Link="N"/>
+      <Library Filename="[Harbour]hbhsx"/>
+      <Library Filename="[Harbour]hbsix"/>
+      <Library Filename="[Harbour]hbmacro"/>
+      <Library Filename="[Harbour]hbcplr"/>
+      <Library Filename="[Harbour]hbpp"/>
+      <Library Filename="[Harbour]hbcommon"/>
+      <Library Filename="[Harbour]hbmainwin"/>
+      <Library Filename="[Harbour]hbmxml"/>
+      <Library Filename="[Harbour]mxml"/>
+      <Library Filename="[Harbour]hbpcre"/>
+      <Library Filename="[Harbour]hbwin"/>
+      <Library Filename="[Harbour]hbmzip"/>
+      <Library Filename="[Harbour]minizip"/>
+      <Library Filename="[Harbour]hbzlib"/>
+      <Library Filename="[Harbour]hbextern.lib"/>
+      <Library Filename="[bcc]psdk\odbc32"/>
+      <Library Filename="[bcc]psdk\msimg32"/>
+      <Library Filename="[bcc]cw32mt"/>
+      <Library Filename="[bcc]import32"/>
+      <Library Filename="[bcc]wininet"/>
+      <Library Filename="[Harbour]hbvm.lib"/>
+      <Library Filename="[Harbour]hbrtl.lib"/>
+      <Library Filename="[Harbour]hblang.lib"/>
+      <Library Filename="[Harbour]hbcpage.lib"/>
+      <Library Filename="[Harbour]gtcgi.lib" Link="N"/>
+      <Library Filename="[Harbour]gtpca.lib" Link="N"/>
+      <Library Filename="[Harbour]gtstd.lib" Link="N"/>
+      <Library Filename="[Harbour]gtwin.lib"/>
+      <Library Filename="[Harbour]gtwvt.lib" Link="N"/>
+      <Library Filename="[Harbour]gtgui.lib" Link="N"/>
+      <Library Filename="[Harbour]hbrdd.lib"/>
+      <Library Filename="[Harbour]hbuddall.lib"/>
+      <Library Filename="[Harbour]hbusrrdd.lib"/>
+      <Library Filename="[Harbour]rddntx.lib"/>
+      <Library Filename="[Harbour]rddcdx.lib"/>
+      <Library Filename="[Harbour]rddnsx.lib"/>
+      <Library Filename="[Harbour]rddfpt.lib"/>
+      <Library Filename="[Harbour]rddads.lib" Link="N"/>
+      <Library Filename="[Harbour]ace32.lib" Link="N"/>
+      <Library Filename="[Harbour]hbhsx.lib"/>
+      <Library Filename="[Harbour]hbsix.lib"/>
+      <Library Filename="[Harbour]hbmacro.lib"/>
+      <Library Filename="[Harbour]hbcplr.lib"/>
+      <Library Filename="[Harbour]hbpp.lib"/>
+      <Library Filename="[Harbour]hbcommon.lib"/>
+      <Library Filename="[Harbour]hbdebug.lib"/>
+      <Library Filename="[Harbour]hbmainwin.lib"/>
+      <Library Filename="[Harbour]hbmxml.lib"/>
+      <Library Filename="[Harbour]mxml.lib"/>
+      <Library Filename="[Harbour]hbpcre.lib"/>
+      <Library Filename="[Harbour]hbwin.lib"/>
+      <Library Filename="[Harbour]hbmzip.lib"/>
+      <Library Filename="[Harbour]minizip.lib"/>
+      <Library Filename="[Harbour]hbzlib.lib"/>
+      <Library Filename="[bcc]c0w32.obj"/>
+      <Library Filename="[bcc]psdk\odbc32.lib"/>
+      <Library Filename="[bcc]psdk\msimg32.lib"/>
+      <Library Filename="[bcc]cw32mt.lib"/>
+      <Library Filename="[bcc]import32.lib"/>
+      <Library Filename="[bcc]wininet.lib"/>
+   </Libraries>
+</Project>
+
